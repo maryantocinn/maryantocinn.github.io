@@ -19,12 +19,18 @@ const Works = () => {
               id="leap"
               title="LEAP BNCC 2.1"
               thumbnail={thumbnailLeap}
+              className="animate-cursor"
             >
               A learning management system for BNCC Learning and Training
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
-            <WorkGridItem id="ninja" title="Ninja" thumbnail={thumbnailNinja}>
+            <WorkGridItem
+              id="ninja"
+              title="Ninja"
+              thumbnail={thumbnailNinja}
+              className="animate-cursor"
+            >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>
           </Section>
@@ -33,6 +39,7 @@ const Works = () => {
               id="compfest"
               title="Compfest HIS"
               thumbnail={thumbnailNinja}
+              className="animate-cursor"
             >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>
@@ -42,6 +49,7 @@ const Works = () => {
               id="technoscape"
               title="Technoscape 2021"
               thumbnail={thumbnailNinja}
+              className="animate-cursor"
             >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>
@@ -51,6 +59,7 @@ const Works = () => {
               id="hackathon"
               title="Hackathon 3.0 BNCC"
               thumbnail={thumbnailNinja}
+              className="animate-cursor"
             >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>
@@ -60,6 +69,7 @@ const Works = () => {
               id="launching"
               title="BNCC Launching 2020"
               thumbnail={thumbnailNinja}
+              className="animate-cursor"
             >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>
@@ -69,6 +79,7 @@ const Works = () => {
               id="airline"
               title="Airline Ticketing"
               thumbnail={thumbnailNinja}
+              className="animate-cursor"
             >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>
@@ -83,6 +94,7 @@ const Works = () => {
               id="mesunda"
               title="Mesunda Mobile"
               thumbnail={thumbnailNinja}
+              className="animate-cursor"
             >
               A fundraising platform made for COMPFEST SEA final task
             </WorkGridItem>

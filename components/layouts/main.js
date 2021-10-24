@@ -1,7 +1,11 @@
-import { Box, Container, useColorModeValue } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  useMediaQuery,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
-import { useMotionValue } from "framer-motion";
 import Cursor from "../cursor";
 import Footer from "../footer";
 import Navbar from "../navbar";
@@ -12,10 +16,9 @@ const Main = ({ children, router }) => {
   const cursor = useRef(null);
   const cursorVisible = useRef(true);
   const cursorEnlarged = useRef(false);
+  const [isInMobile] = useMediaQuery("(max-width: 480px)");
 
   const [scroll, setScroll] = useState(0);
-  const cursorX = useMotionValue(-100);
-  const cursorY = useMotionValue(-100);
 
   const animateProgressBar = () => {
     if (ref.current) {
@@ -41,7 +44,7 @@ const Main = ({ children, router }) => {
 
   const toggleCursorSize = () => {
     if (cursorEnlarged.current) {
-      cursor.current.style.transform = "translate(-50%, -50%) scale(1.5)";
+      cursor.current.style.transform = "translate(-50%, -50%) scale(2)";
     } else {
       cursor.current.style.transform = "translate(-50%, -50%) scale(1)";
     }
@@ -49,25 +52,25 @@ const Main = ({ children, router }) => {
 
   const mouseOverEvent = () => {
     cursorEnlarged.current = true;
-    console.log("mouseOverEvent");
+    // console.log("mouseOverEvent");
     toggleCursorSize();
   };
 
   const mouseOutEvent = () => {
     cursorEnlarged.current = false;
-    console.log("mouseOutEvent");
+    // console.log("mouseOutEvent");
     toggleCursorSize();
   };
 
   const mouseEnterEvent = () => {
     cursorVisible.current = true;
-    console.log("mouseEnterEvent");
+    // console.log("mouseEnterEvent");
     toggleCursorVisibility();
   };
 
   const mouseLeaveEvent = () => {
     cursorVisible.current = false;
-    console.log("mouseLeaveEvent");
+    // console.log("mouseLeaveEvent");
     toggleCursorVisibility();
   };
 
@@ -86,10 +89,19 @@ const Main = ({ children, router }) => {
     document.addEventListener("mouseup", mouseOutEvent);
     document.addEventListener("mouseenter", mouseEnterEvent);
     document.addEventListener("mouseleave", mouseLeaveEvent);
-    document.querySelectorAll(".animate-cursor").forEach(function (el) {
+    document.querySelectorAll(".animate-cursor").forEach((el) => {
       el.addEventListener("mouseover", mouseOverEvent);
       el.addEventListener("mouseout", mouseOutEvent);
     });
+    router.events.on("routeChangeComplete", () => {
+      setTimeout(() => {
+        document.querySelectorAll(".animate-cursor").forEach((el) => {
+          el.addEventListener("mouseover", mouseOverEvent);
+          el.addEventListener("mouseout", mouseOutEvent);
+        });
+      }, 1000);
+    });
+
     return () => {
       window.removeEventListener("mousemove", moveCursor);
       window.removeEventListener("scroll", animateProgressBar, true);
@@ -115,8 +127,8 @@ const Main = ({ children, router }) => {
         {children}
         <Footer />
       </Container>
-      <ProgressBar width={scroll} />
-      <Cursor ref={cursor} />
+      <ProgressBar width={scroll} color={useColorModeValue(true, false)} />
+      <Cursor ref={cursor} isInMobile={isInMobile} />
     </Box>
   );
 };

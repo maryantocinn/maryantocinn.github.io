@@ -17,7 +17,6 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import Layout from "../components/layouts/article";
 import { BioSection, BioYear } from "../components/bio";
 import Welcome from "../components/welcome";
-import { GridItem } from "../components/gridItem";
 import {
   IoLogoGitlab,
   IoLogoGithub,

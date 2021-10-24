@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 
 const Cursor = styled(motion.div)`
+  display: ${({ isInMobile }) => (isInMobile ? "none" : "block")};
   position: fixed;
   left: 0;
   top: 0;

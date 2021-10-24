@@ -5,7 +5,7 @@ const ProgressBar = styled.div`
   top: 0;
   left: 0;
   height: 2px;
-  background: linear-gradient(to left, #ff5f6d, #ffc371);
+  background: ${({ color }) => (color ? "#805AD5" : "#FBD38D")};
   width: ${({ width }) => width + "%"};
   z-index: 100;
   transition: width 0.2s ease-out;
