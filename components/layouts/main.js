@@ -127,7 +127,7 @@ const Main = ({ children, router }) => {
         {children}
         <Footer />
       </Container>
-      <ProgressBar width={scroll} color={useColorModeValue(true, false)} />
+      <ProgressBar width={scroll} mode={useColorModeValue("light", "dark")} />
       <Cursor ref={cursor} isInMobile={isInMobile} />
     </Box>
   );
