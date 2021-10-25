@@ -42,7 +42,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Laravel, AdminLTE, Bootstrap, Jquery, Slick</span>
+            <span>Laravel, MySQL, AdminLTE, Bootstrap, Jquery, Slick</span>
           </ListItem>
         </List>
         <WorkImage

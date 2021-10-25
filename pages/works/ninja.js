@@ -38,7 +38,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Role</Meta>
-            <span>Front End & Deployment</span>
+            <span>Front End, Deployment</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>

@@ -31,7 +31,7 @@ const Work = () => {
             <Meta>Stack</Meta>
             <span>
               React, Semantic UI React, styled-component, JSON Web Server,
-              Axios, SASS, Laravel
+              Axios, SASS, Laravel, MySQL
             </span>
           </ListItem>
         </List>
