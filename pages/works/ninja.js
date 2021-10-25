@@ -23,7 +23,7 @@ const Work = () => {
               href="https://ninja-fe.netlify.app"
               className="animate-cursor"
             >
-              https://ninja-fe.netlify.app <ExternalLinkIcon mx="2px" />
+              ninja-fe.netlify.app <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -32,7 +32,7 @@ const Work = () => {
               href="https://github.com/NinjaCompfest/ninja-fe"
               className="animate-cursor"
             >
-              https://github.com/NinjaCompfest/ninja-fe{" "}
+              github.com/NinjaCompfest/ninja-fe
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

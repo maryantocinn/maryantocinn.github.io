@@ -6,7 +6,7 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
   return (
-    <Layout title="Learning Portal 2.1">
+    <Layout title="LEAP 2.1">
       <Container>
         <Title>
           LEAP BNCC 2.1 <Badge>2021</Badge>
@@ -20,7 +20,7 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href="https://member.bncc.net" className="animate-cursor">
-              https://member.bncc.net <ExternalLinkIcon mx="2px" />
+              member.bncc.net <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>

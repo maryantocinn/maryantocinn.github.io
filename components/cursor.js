@@ -1,8 +1,6 @@
 import styled from "@emotion/styled";
-import { motion } from "framer-motion";
 
-const Cursor = styled(motion.div)`
-  display: ${({ isInMobile }) => (isInMobile ? "none" : "block")};
+const Cursor = styled.div`
   position: fixed;
   left: 0;
   top: 0;
@@ -16,6 +14,10 @@ const Cursor = styled(motion.div)`
   opacity: 1;
   transform: translate(-50%, -50%);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export default Cursor;

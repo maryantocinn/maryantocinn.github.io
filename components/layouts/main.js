@@ -1,9 +1,4 @@
-import {
-  Box,
-  Container,
-  useMediaQuery,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Box, Container, useColorModeValue } from "@chakra-ui/react";
 import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import Cursor from "../cursor";
@@ -16,7 +11,6 @@ const Main = ({ children, router }) => {
   const cursor = useRef(null);
   const cursorVisible = useRef(true);
   const cursorEnlarged = useRef(false);
-  const [isInMobile] = useMediaQuery("(max-width: 480px)");
 
   const [scroll, setScroll] = useState(0);
 
@@ -128,7 +122,7 @@ const Main = ({ children, router }) => {
         <Footer />
       </Container>
       <ProgressBar width={scroll} mode={useColorModeValue("light", "dark")} />
-      <Cursor ref={cursor} isInMobile={isInMobile} />
+      <Cursor ref={cursor} />
     </Box>
   );
 };

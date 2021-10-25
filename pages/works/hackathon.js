@@ -6,50 +6,66 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
   return (
-    <Layout title="Learning Portal 2.1">
+    <Layout title="Hackathon 3.0">
       <Container>
         <Title>
-          Ninja <Badge>2021</Badge>
+          BNCC Hackathon 3.0 <Badge>2020</Badge>
         </Title>
         <Paragraph>
-          A fundraising platform made for COMPFEST SEA final task. Roles include
-          donators, fundraisers and admin. All transactions need admin
-          verification before proceeding.
+          A website for BNCC Hackathon 3.0 needs. Every user's activities are
+          done in here, including registration, payment, admin CRUD, group and
+          payment validation.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link
-              href="https://ninja-fe.netlify.app"
-              className="animate-cursor"
-            >
-              https://ninja-fe.netlify.app <ExternalLinkIcon mx="2px" />
+            <Link href="https://hackathon.bncc.net" className="animate-cursor">
+              hackathon.bncc.net <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/NinjaCompfest/ninja-fe"
+              href="https://gitlab.com/maryantocinn/hackathon-3.0-newnormal"
               className="animate-cursor"
             >
-              https://github.com/NinjaCompfest/ninja-fe{" "}
+              gitlab.com/maryantocinn/hackathon-3.0-newnormal
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Role</Meta>
-            <span>Front End & Deployment</span>
+            <span>Back End, Software Architecture, Deployment</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Tailwind, Axios, Node.js</span>
+            <span>Laravel, MySQL, Bootstrap, Jquery</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/ninja/ninja-0.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-1.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-2.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-3.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-4.png" alt="ninja" />
+        <WorkImage
+          src="/images/works/hackathon/hackathon-0.png"
+          alt="hackathon"
+        />
+        <WorkImage
+          src="/images/works/hackathon/hackathon-1.png"
+          alt="hackathon"
+        />
+        <WorkImage
+          src="/images/works/hackathon/hackathon-2.png"
+          alt="hackathon"
+        />
+        <WorkImage
+          src="/images/works/hackathon/hackathon-3.png"
+          alt="hackathon"
+        />
+        <WorkImage
+          src="/images/works/hackathon/hackathon-4.png"
+          alt="hackathon"
+        />
+        <WorkImage
+          src="/images/works/hackathon/hackathon-5.png"
+          alt="hackathon"
+        />
       </Container>
     </Layout>
   );

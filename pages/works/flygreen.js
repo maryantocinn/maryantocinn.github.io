@@ -6,40 +6,40 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
   return (
-    <Layout title="Mesunda Mobile">
+    <Layout title="FlyGreen">
       <Container>
         <Title>
-          Mesunda Mobile <Badge>2021</Badge>
+          FlyGreen <Badge>2020</Badge>
         </Title>
         <Paragraph>
-          A mobile app created with Android Studio which is used for BNCC
-          Learning and Training final project.
+          An airline ticketing platform created with Laravel. This project was
+          made to learn more about Laravel during a program in BNCC.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/MaryantoCin/MesundaMobile"
+              href="https://github.com/MaryantoCin/Kelompok-2-Regen"
               className="animate-cursor"
             >
-              github.com/MaryantoCin/MesundaMobile
+              github.com/MaryantoCin/Kelompok-2-Regen
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Role</Meta>
-            <span>Mobile</span>
+            <span>Back End</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Android Studio</span>
+            <span>Laravel, MySQL</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/mesunda/mesunda-0.png" alt="mesunda" />
-        <WorkImage src="/images/works/mesunda/mesunda-1.png" alt="mesunda" />
-        <WorkImage src="/images/works/mesunda/mesunda-2.png" alt="mesunda" />
-        <WorkImage src="/images/works/mesunda/mesunda-3.png" alt="mesunda" />
-        <WorkImage src="/images/works/mesunda/mesunda-4.png" alt="mesunda" />
+        <WorkImage src="/images/works/flygreen/flygreen-0.png" alt="flygreen" />
+        <WorkImage src="/images/works/flygreen/flygreen-1.png" alt="flygreen" />
+        <WorkImage src="/images/works/flygreen/flygreen-2.png" alt="flygreen" />
+        <WorkImage src="/images/works/flygreen/flygreen-3.png" alt="flygreen" />
+        <WorkImage src="/images/works/flygreen/flygreen-4.png" alt="flygreen" />
       </Container>
     </Layout>
   );

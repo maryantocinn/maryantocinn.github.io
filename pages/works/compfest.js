@@ -6,50 +6,48 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
   return (
-    <Layout title="Learning Portal 2.1">
+    <Layout title="Compfest HIS">
       <Container>
         <Title>
-          Ninja <Badge>2021</Badge>
+          Compfest HIS <Badge>2021</Badge>
         </Title>
         <Paragraph>
-          A fundraising platform made for COMPFEST SEA final task. Roles include
-          donators, fundraisers and admin. All transactions need admin
-          verification before proceeding.
+          A simple hospital information system made for COMPFEST SEA selection.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
+            <Meta>Repo</Meta>
             <Link
-              href="https://ninja-fe.netlify.app"
+              href="https://github.com/MaryantoCin/compfest-be"
               className="animate-cursor"
             >
-              https://ninja-fe.netlify.app <ExternalLinkIcon mx="2px" />
+              github.com/MaryantoCin/compfest-be
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/NinjaCompfest/ninja-fe"
+              href="https://github.com/MaryantoCin/compfest-fe"
               className="animate-cursor"
             >
-              https://github.com/NinjaCompfest/ninja-fe{" "}
+              github.com/MaryantoCin/compfest-fe
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Role</Meta>
-            <span>Front End & Deployment</span>
+            <span>Full Stack</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Tailwind, Axios, Node.js</span>
+            <span>React, Bootstrap, Axios, Node.js, MongoDB</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/ninja/ninja-0.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-1.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-2.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-3.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-4.png" alt="ninja" />
+        <WorkImage src="/images/works/compfest/compfest-0.png" alt="compfest" />
+        <WorkImage src="/images/works/compfest/compfest-1.png" alt="compfest" />
+        <WorkImage src="/images/works/compfest/compfest-2.png" alt="compfest" />
+        <WorkImage src="/images/works/compfest/compfest-3.png" alt="compfest" />
       </Container>
     </Layout>
   );

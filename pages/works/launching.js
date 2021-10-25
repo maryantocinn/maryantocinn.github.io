@@ -6,50 +6,65 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
   return (
-    <Layout title="Learning Portal 2.1">
+    <Layout title="BNCC Launching">
       <Container>
         <Title>
-          Ninja <Badge>2021</Badge>
+          BNCC Launching <Badge>2020</Badge>
         </Title>
         <Paragraph>
-          A fundraising platform made for COMPFEST SEA final task. Roles include
-          donators, fundraisers and admin. All transactions need admin
-          verification before proceeding.
+          BNCC Launching is BNCC's annual event where freshmen are introduced to
+          BNCC. In this event, freshmen would know about what is BNCC and what
+          BNCC does. Freshmen could join BNCC Launching by registering through
+          this website.
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link
-              href="https://ninja-fe.netlify.app"
-              className="animate-cursor"
-            >
-              https://ninja-fe.netlify.app <ExternalLinkIcon mx="2px" />
+            <Link href="https://launching.bncc.net" className="animate-cursor">
+              launching.bncc.net <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/NinjaCompfest/ninja-fe"
+              href="https://gitlab.com/maryantocinn/bncclaunching2020-be"
               className="animate-cursor"
             >
-              https://github.com/NinjaCompfest/ninja-fe{" "}
+              gitlab.com/maryantocinn/bncclaunching2020-be
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Role</Meta>
-            <span>Front End & Deployment</span>
+            <span>
+              Back End, Project Manager, Software Architecture, Deployment
+            </span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React, Tailwind, Axios, Node.js</span>
+            <span>Laravel, AdminLTE, Bootstrap, Jquery, Slick</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/ninja/ninja-0.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-1.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-2.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-3.png" alt="ninja" />
-        <WorkImage src="/images/works/ninja/ninja-4.png" alt="ninja" />
+        <WorkImage
+          src="/images/works/launching/launching-0.png"
+          alt="launching"
+        />
+        <WorkImage
+          src="/images/works/launching/launching-1.png"
+          alt="launching"
+        />
+        <WorkImage
+          src="/images/works/launching/launching-2.png"
+          alt="launching"
+        />
+        <WorkImage
+          src="/images/works/launching/launching-3.png"
+          alt="launching"
+        />
+        <WorkImage
+          src="/images/works/launching/launching-4.png"
+          alt="launching"
+        />
       </Container>
     </Layout>
   );

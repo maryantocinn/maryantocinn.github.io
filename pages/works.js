@@ -4,6 +4,12 @@ import { WorkGridItem } from "../components/gridItem";
 
 import thumbnailLeap from "../public/images/works/leap/leap-4.png";
 import thumbnailNinja from "../public/images/works/ninja/ninja-0.png";
+import thumbnailCompfest from "../public/images/works/compfest/compfest-1.png";
+import thumbnailTechnoscape from "../public/images/works/technoscape/technoscape-1.png";
+import thumbnailHackathon from "../public/images/works/hackathon/hackathon-0.png";
+import thumbnailLaunching from "../public/images/works/launching/launching-0.png";
+import thumbnailFlygreen from "../public/images/works/flygreen/flygreen-0.png";
+import thumbnailMesunda from "../public/images/works/mesunda/mesunda-0.png";
 import Layout from "../components/layouts/article";
 
 const Works = () => {
@@ -38,50 +44,51 @@ const Works = () => {
             <WorkGridItem
               id="compfest"
               title="Compfest HIS"
-              thumbnail={thumbnailNinja}
+              thumbnail={thumbnailCompfest}
               className="animate-cursor"
             >
-              A fundraising platform made for COMPFEST SEA final task
+              A simple hospital information system made for COMPFEST SEA
+              selection.
             </WorkGridItem>
           </Section>
           <Section delay={0.45}>
             <WorkGridItem
               id="technoscape"
-              title="Technoscape 2021"
-              thumbnail={thumbnailNinja}
+              title="TechnoScape 2021"
+              thumbnail={thumbnailTechnoscape}
               className="animate-cursor"
             >
-              A fundraising platform made for COMPFEST SEA final task
+              The biggest annual technology event held by BNCC.
             </WorkGridItem>
           </Section>
           <Section delay={0.6}>
             <WorkGridItem
               id="hackathon"
               title="Hackathon 3.0 BNCC"
-              thumbnail={thumbnailNinja}
+              thumbnail={thumbnailHackathon}
               className="animate-cursor"
             >
-              A fundraising platform made for COMPFEST SEA final task
+              Official website for BNCC Hackathon 3.0.
             </WorkGridItem>
           </Section>
           <Section delay={0.6}>
             <WorkGridItem
               id="launching"
               title="BNCC Launching 2020"
-              thumbnail={thumbnailNinja}
+              thumbnail={thumbnailLaunching}
               className="animate-cursor"
             >
-              A fundraising platform made for COMPFEST SEA final task
+              Official website for BNCC Launching 2020.
             </WorkGridItem>
           </Section>
           <Section delay={0.75}>
             <WorkGridItem
-              id="airline"
-              title="Airline Ticketing"
-              thumbnail={thumbnailNinja}
+              id="flygreen"
+              title="FlyGreen"
+              thumbnail={thumbnailFlygreen}
               className="animate-cursor"
             >
-              A fundraising platform made for COMPFEST SEA final task
+              An airline ticketing platform.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -93,10 +100,10 @@ const Works = () => {
             <WorkGridItem
               id="mesunda"
               title="Mesunda Mobile"
-              thumbnail={thumbnailNinja}
+              thumbnail={thumbnailMesunda}
               className="animate-cursor"
             >
-              A fundraising platform made for COMPFEST SEA final task
+              Mobile app project created with Android Studio.
             </WorkGridItem>
           </Section>
         </SimpleGrid>

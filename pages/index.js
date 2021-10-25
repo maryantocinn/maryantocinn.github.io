@@ -81,12 +81,17 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Started enrolling in Computer Science - Master Track program in
-            Binus University.
+            Enrolled in Computer Science - Master Track program in Binus
+            University.
+          </BioSection>
+          <BioSection>
+            <BioYear>2020</BioYear>
+            Appointed as Research and Development Manager in BNCC(Bina Nusantara
+            Computer Club).
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Started interning as Back End Engineer at Coding Studio.
+            Interned as Back End Engineer at Coding Studio.
           </BioSection>
         </Section>
         <Section delay={0.45}>
