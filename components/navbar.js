@@ -83,13 +83,18 @@ const Navbar = (props) => {
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"
+                className="animate-cursor"
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link} className="animate-cursor">
+                    About
+                  </MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link} className="animate-cursor">
+                    Works
+                  </MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
