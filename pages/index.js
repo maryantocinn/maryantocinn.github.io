@@ -91,7 +91,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Interned as Back End Engineer at Coding Studio.
+            Part-timed as Back End Engineer at Coding Studio.
           </BioSection>
         </Section>
         <Section delay={0.45}>
@@ -100,7 +100,7 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Android Studio, Axios, Bootstrap, C, CSS, Django REST Framework,
-            Docker, Express, Git, HTML, Java, Javascript, Laravel, MySQL,
+            Docker, Express, Git, Go, HTML, Java, Javascript, Laravel, MySQL,
             MongoDB, Netlify, Next.js, Node.js, PHP, Python, React, Sass,
             scikit, Semantic UI React, Spring Boot, SQL Server, Tailwind,
             PostgreSQL, Vagrant, Vercel
