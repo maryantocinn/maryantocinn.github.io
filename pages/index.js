@@ -95,7 +95,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Interned as Software Engineer at tiket.com.
+            Interning as Software Engineer at tiket.com.
           </BioSection>
         </Section>
         <Section delay={0.45}>
