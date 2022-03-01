@@ -93,6 +93,10 @@ const Page = () => {
             <BioYear>2021</BioYear>
             Part-timed as Back End Engineer at Coding Studio.
           </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Interned as Software Engineer at tiket.com.
+          </BioSection>
         </Section>
         <Section delay={0.45}>
           <Heading as="h3" variant="section-title" align="center" mt={12}>
