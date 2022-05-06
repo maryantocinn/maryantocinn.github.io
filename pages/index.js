@@ -34,7 +34,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Maryanto
             </Heading>
-            <p>Tech Enthusiast</p>
+            <p>Full Stack Developer</p>
           </Box>
           <Box flexShrink={0} mt={4} align="center">
             <Image
@@ -54,8 +54,8 @@ const Page = () => {
             Who am I?
           </Heading>
           <Paragraph>
-            Motivated student completing Computer Science degree. Experienced in
-            Agile and Scrum environments. Supports project coordination and
+            A motivated student completing Computer Science degree. Experienced
+            in Agile and Scrum environments. Supports project coordination and
             programming needs. Projects included building, optimizing and
             deploying web apps.
           </Paragraph>
@@ -76,26 +76,48 @@ const Page = () => {
             My journey
           </Heading>
           <BioSection>
-            <BioYear>2002</BioYear>
-            Born in Tg. Balai Karimun, Riau Islands.
-          </BioSection>
-          <BioSection>
-            <BioYear>2019</BioYear>
-            Enrolled in Computer Science - Master Track program in Binus
-            University.
-          </BioSection>
-          <BioSection>
-            <BioYear>2020</BioYear>
-            Appointed as Research and Development Manager in BNCC(Bina Nusantara
-            Computer Club).
+            <BioYear>2022</BioYear>
+            Currently interning as Software Engineer at&nbsp;
+            <Link
+              href="https://tiket.com/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              tiket.com
+            </Link>
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Part-timed as Back End Engineer at Coding Studio.
+            Part-timed as Back End Engineer at&nbsp;
+            <Link
+              href="https://codingstudio.id/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              Coding Studio
+            </Link>
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>
-            Interning as Software Engineer at tiket.com.
+            <BioYear>2020</BioYear>
+            Appointed as Research and Development Manager in&nbsp;
+            <Link
+              href="https://bncc.net/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              BNCC
+            </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>2019</BioYear>
+            Enrolled in Computer Science - Master Track program in&nbsp;
+            <Link
+              href="https://binus.ac.id//"
+              target="_blank"
+              className="animate-cursor"
+            >
+              Binus University
+            </Link>
           </BioSection>
         </Section>
         <Section delay={0.45}>
@@ -106,8 +128,8 @@ const Page = () => {
             Android Studio, Axios, Bootstrap, C, CSS, Django REST Framework,
             Docker, Express, Git, Go, HTML, Java, Javascript, Laravel, MySQL,
             MongoDB, Netlify, Next.js, Node.js, PHP, Python, React, Sass,
-            scikit, Semantic UI React, Spring Boot, SQL Server, Tailwind,
-            PostgreSQL, Vagrant, Vercel
+            scikit, Semantic UI React, Spring Boot, Spring Webflux, SQL Server,
+            Tailwind, PostgreSQL, Vagrant, Vercel
           </Paragraph>
         </Section>
         <Section delay={0.6}>

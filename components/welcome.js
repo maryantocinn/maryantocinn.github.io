@@ -1,9 +1,8 @@
 import { Box, useColorModeValue } from "@chakra-ui/react";
-import { useState } from "react";
+import Typewriter from "typewriter-effect";
+import GraphemeSplitter from "grapheme-splitter";
 
 const Welcome = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
   const renderText = () => {
     const days = [
       "Sunday",
@@ -15,10 +14,12 @@ const Welcome = () => {
       "Saturday",
     ];
     const dayName = days[new Date().getDay()];
-    if (isHovered) {
-      return `Hope you have a great ${dayName}!`;
-    }
-    return `Hi there, nice to meet you!`;
+    return `🤞 Hope you have a great ${dayName}!`;
+  };
+
+  const stringSplitter = (string) => {
+    const splitter = new GraphemeSplitter();
+    return splitter.splitGraphemes(string);
   };
 
   return (
@@ -29,11 +30,16 @@ const Welcome = () => {
       mt={3}
       mb={6}
       align="center"
-      onClick={() => setIsHovered(!isHovered)}
-      cursor="pointer"
-      className="animate-cursor"
     >
-      {renderText()}
+      <Typewriter
+        options={{
+          autoStart: true,
+          loop: true,
+          delay: 40,
+          strings: ["👋 Hi there, nice to meet you!", renderText()],
+          stringSplitter,
+        }}
+      />
     </Box>
   );
 };
