@@ -18,20 +18,20 @@ const Work = () => {
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/MaryantoCin/compfest-be"
+              href="https://github.com/maryantocinn/compfest-be"
               className="animate-cursor"
             >
-              github.com/MaryantoCin/compfest-be
+              github.com/maryantocinn/compfest-be
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/MaryantoCin/compfest-fe"
+              href="https://github.com/maryantocinn/compfest-fe"
               className="animate-cursor"
             >
-              github.com/MaryantoCin/compfest-fe
+              github.com/maryantocinn/compfest-fe
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

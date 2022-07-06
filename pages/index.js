@@ -150,14 +150,14 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://github.com/maryantocin" target="_blank">
+              <Link href="https://github.com/maryantocinn" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoGithub} />}
                   className="animate-cursor"
                 >
-                  maryantocin
+                  maryantocinn
                 </Button>
               </Link>
             </ListItem>
