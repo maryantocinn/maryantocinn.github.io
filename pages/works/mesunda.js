@@ -19,10 +19,10 @@ const Work = () => {
           <ListItem>
             <Meta>Repo</Meta>
             <Link
-              href="https://github.com/MaryantoCin/MesundaMobile"
+              href="https://github.com/maryantocinn/MesundaMobile"
               className="animate-cursor"
             >
-              github.com/MaryantoCin/MesundaMobile
+              github.com/maryantocinn/MesundaMobile
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
