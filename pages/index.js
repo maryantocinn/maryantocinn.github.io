@@ -77,7 +77,19 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2022</BioYear>
-            Currently interning as Software Engineer at&nbsp;
+            Currently working as Software Engineer I at&nbsp;
+            <Link
+              href="https://tiket.com/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              tiket.com
+            </Link>
+          </BioSection>
+          <BioSection></BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Interned as Software Engineer at&nbsp;
             <Link
               href="https://tiket.com/"
               target="_blank"
@@ -128,7 +140,7 @@ const Page = () => {
             Android Studio, Axios, Bootstrap, C, CSS, Django REST Framework,
             Docker, Express, Git, Go, HTML, Java, Javascript, Laravel, MySQL,
             MongoDB, Netlify, Next.js, Node.js, PHP, Python, React, Sass,
-            scikit, Semantic UI React, Spring Boot, Spring Webflux, SQL Server,
+            scikit, Semantic UI React, Spring Boot, Spring WebFlux, SQL Server,
             Tailwind, PostgreSQL, Vagrant, Vercel
           </Paragraph>
         </Section>
