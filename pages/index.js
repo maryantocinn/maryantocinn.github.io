@@ -23,6 +23,7 @@ import {
   IoLogoLinkedin,
   IoLogoInstagram,
 } from "react-icons/io5";
+import { BsSpotify } from "react-icons/bs";
 
 const Page = () => {
   return (
@@ -34,7 +35,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Maryanto
             </Heading>
-            <p>Full Stack Developer</p>
+            <p>Software Engineer</p>
           </Box>
           <Box flexShrink={0} mt={4} align="center">
             <Image
@@ -44,7 +45,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/maryanto.jpg"
+              src="/images/maryanto.png"
               alt="Profile picture"
             />
           </Box>
@@ -54,10 +55,12 @@ const Page = () => {
             Who am I?
           </Heading>
           <Paragraph>
-            A motivated student completing Computer Science degree. Experienced
-            in Agile and Scrum environments. Supports project coordination and
-            programming needs. Projects included building, optimizing and
-            deploying web apps.
+            Hello! I'm Maryanto, currently pursuing a Master's degree while
+            working full-time as a backend software engineer. Agile and Scrum
+            environments are my comfort zone, where I thrive in coordinating
+            projects and tackling programming challenges. My journey involves
+            crafting and optimizing web apps, utilizing my passion for
+            innovation and seamless user experiences.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -77,7 +80,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2022</BioYear>
-            Currently working as Software Engineer I at&nbsp;
+            Started working as Software Engineer I at&nbsp;
             <Link
               href="https://tiket.com/"
               target="_blank"
@@ -185,13 +188,24 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
-
             <ListItem>
               <Link href="https://instagram.com/maryantocinn" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoInstagram} />}
+                  className="animate-cursor"
+                >
+                  maryantocinn
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://spotify.link/B9vHSo6CiCb" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={BsSpotify} />}
                   className="animate-cursor"
                 >
                   maryantocinn
