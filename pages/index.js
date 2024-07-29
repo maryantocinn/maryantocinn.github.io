@@ -55,12 +55,12 @@ const Page = () => {
             Who am I?
           </Heading>
           <Paragraph>
-            Hello! I'm Maryanto, currently pursuing a Master's degree while
-            working full-time as a backend software engineer. Agile and Scrum
-            environments are my comfort zone, where I thrive in coordinating
-            projects and tackling programming challenges. My journey involves
-            crafting and optimizing web apps, utilizing my passion for
-            innovation and seamless user experiences.
+          Hello! I'm Maryanto, a recent Master's degree graduate and 
+          full-time backend software engineer. I thrive in Agile and 
+          Scrum environments, excelling in coordinating projects and 
+          solving programming challenges. My journey includes crafting and 
+          optimizing web applications, driven by my passion for innovation and 
+          creating seamless user experiences.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -79,6 +79,28 @@ const Page = () => {
             My journey
           </Heading>
           <BioSection>
+            <BioYear>2024</BioYear>
+            Completed my master's degree at&nbsp;
+            <Link
+              href="https://graduation.apps.binus.ac.id/graduates/2501878071/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              Binus University
+            </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Completed my bachelor's degree at&nbsp;
+            <Link
+              href="https://graduation.apps.binus.ac.id/graduates/2301878076/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              Binus University
+            </Link>
+          </BioSection>
+          <BioSection>
             <BioYear>2022</BioYear>
             Started working as Software Engineer I at&nbsp;
             <Link
@@ -89,7 +111,17 @@ const Page = () => {
               tiket.com
             </Link>
           </BioSection>
-          <BioSection></BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Instructed at&nbsp;
+            <Link
+              href="https://codingstudio.id/kursus-laravel/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              Coding Studio
+            </Link>
+          </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
             Interned as Software Engineer at&nbsp;
