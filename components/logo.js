@@ -69,7 +69,7 @@ const LogoBox = styled.span`
 `;
 
 const Logo = () => {
-  const logoImg = `/images/pokeball.png`;
+  const logoImg = `../images/pokeball.png`;
 
   return (
     <Link href="/">
