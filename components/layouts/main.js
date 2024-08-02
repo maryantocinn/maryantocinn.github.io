@@ -23,7 +23,8 @@ const Main = ({ children, router }) => {
             document.documentElement.clientHeight)) *
         100;
       let value = Math.floor(progressWidth);
-      if (value < 0) value = 0;
+      if (value < 0) value = 0
+      else if (value >= 99) value = 100;
       setScroll(value);
     }
   };
