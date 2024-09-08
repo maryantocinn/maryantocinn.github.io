@@ -80,6 +80,17 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2024</BioYear>
+            Promoted to Software Engineer II at&nbsp;
+            <Link
+              href="https://tiket.com/"
+              target="_blank"
+              className="animate-cursor"
+            >
+              tiket.com
+            </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
             Completed my master's degree at&nbsp;
             <Link
               href="https://graduation.apps.binus.ac.id/graduates/2501878071/"
